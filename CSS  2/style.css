@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "futurak";
+    src: url(fonts/futurak.ttf);
+}
+
+body {
+    margin: 0px;
+}
+
+
+
+.header {
+    width: 100%;
+    background-color: #000;
+    padding: 0px 100px;
+    vertical-align: bottom;
+
+}
+
+
+.logo>img {
+    width: 150px;
+    padding: 20px 10px;
+    margin-top: 20px ;
+
+}
+
+.logo {
+    width: 30%;
+    vertical-align: middle;
+
+}
+
+.menu>li {
+    display: inline-block;
+    color: rgb(251, 253, 255);
+    margin-right: 6px;
+}
+
+.right-side {
+    width: 50%;
+    vertical-align: middle;
+    position: relative;
+    left: 30%;
+    position: relative;
+    bottom: 10px;
+    text-align: right;
+
+
+}
+
+.btns>button {
+    border: none;
+    padding: 15px 20px;
+    border-radius: 35px;
+}
+
+.btn-1 {
+    background-color: transparent;
+    color: white;
+    border: solid #fff !important;
+}
+
+.btn-2 {
+    background-color: #ed1c24;
+    border: 1px solid !important;
+    color: #fff;
+
+}
+
+.menu {
+    display: inline-block;
+}
+
+.btns {
+    display: inline-block;
+}
+
+.btn-2>i {
+    background-color: #fff;
+    color: #ed1c24;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.slider {
+    width: 100%;
+    height: 500px;
+}
+
+.slider>img {
+    width: 100%;
+    height: 100%;
+}
+
+.intro {
+    width: 100%;
+    height: 500px;
+    background-color: #000;
+}
+
+.intro>.content>h2,
+p {
+    margin: 0px;
+    color: white;
+}
+
+.content>h2,
+p {
+    text-align: center;
+}
+
+.content {
+    width: 100%;
+    padding: 20px;
+
+}
+
+.content>h2 {
+    font-size: 40px;
+}
+
+.content>h2>span {
+    font-family: "futurak";
+    letter-spacing: 8px;
+}
+
+.card-logo {
+    text-align: center;
+    width: 250px;
+    padding: 20px 5px;
+    background-color: #fff;
+
+}
+
+.card-logo>img {
+    width: 70%;
+}
+
+.card-btn>button {
+    border: none;
+    padding: 15px 50px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.card-btn {
+    width: 250px;
+    margin-top: 10px;
+    text-align: center
+}
+
+.card-container {
+    text-align: center;
+}
+
+.cards {
+    display: inline-block;
+}
+
+.center-card {
+    margin: 50px 20px;
+}
